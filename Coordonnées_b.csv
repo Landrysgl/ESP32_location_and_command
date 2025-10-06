@@ -1,0 +1,7 @@
+id,name,state_id,state_code,state_name,country_id,country_code,country_name,Latitude,Longitude,Time
+52,Ashkāsham,3901,BDS,Badakhshan,1,AF,Afghanistan,36.68333000,71.53333000,07h30
+68,Fayzabad,3901,BDS,Badakhshan,1,AF,Afghanistan,37.11664000,70.58002000,10h30
+78,Jurm,3901,BDS,Badakhshan,1,AF,Afghanistan,36.86477000,70.83421000,11h23
+84,Khandūd,3901,BDS,Badakhshan,1,AF,Afghanistan,36.95127000,72.31800000,02h07
+115,Rāghistān,3901,BDS,Badakhshan,1,AF,Afghanistan,37.66079000,70.67346000,07h47
+131,Wākhān,3901,BDS,Badakhshan,1,AF,Afghanistan,37.05710000,73.34928000,15h33
