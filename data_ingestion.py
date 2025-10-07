@@ -59,7 +59,18 @@ def on_message(client, userdata, msg):
             data["lon"]
         ])
 
+
+def on_connect(client, userdata, flags, rc):
+    if rc == 0:
+        print("Connecté au broker !")
+        # Affiche l'adresse et le port du broker
+        ip, port = client._sock.getpeername()
+        print(f"Broker connecté sur {ip}:{port}")
+    else:
+        print("Échec de la connexion, code :", rc)
+
 client = mqtt.Client()
+client.on_connect = on_connect
 client.connect("localhost", 1883, 60)
 client.subscribe("gps/data")
 client.on_message = on_message
