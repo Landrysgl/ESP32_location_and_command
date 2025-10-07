@@ -2,3 +2,4 @@ pandas
 streamlit 
 streamlit-folium 
 folium
+paho-mqtt
